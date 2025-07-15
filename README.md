@@ -281,7 +281,7 @@ Este proyecto incluye una pequeña interfaz web para probar de manera visual los
 
 ### 📷 Vista previa
 
-<img src="assets/finnecto-preview.png" alt="Finnecto Middleware Tester" width="700"
+<img src="./assets/finnecto-preview.png" alt="Finnecto Middleware Tester" width="700"
 
 
 ### 🚀 Cómo usarlo
@@ -297,19 +297,19 @@ npm run dev
 
 3. Prueba los endpoints copiando tus datos JSON en cada text area.
 
-<img src="assets/texto.png" alt="Finnecto Middleware Tester" width="700"
+<img src="./assets/texto.png" alt="Finnecto Middleware Tester" width="700"
 
 4. Haz clic en “Enviar a /vendors” o “Enviar a /invoices”. 
 
-<img src="assets/boton.png" alt="Finnecto Middleware Tester" width="700"
+<img src="./assets/boton.png" alt="Finnecto Middleware Tester" width="700"
 
 Posteriormente te aparecerá un dialogo de refresh al cual le debes dar click en "cancelar"
 
-<img src="assets/dialogo.png" alt="Finnecto Middleware Tester" width="700"
+<img src="./assets/dialogo.png" alt="Finnecto Middleware Tester" width="700"
 
 5. La respuesta aparecerá abajo formateada, junto con estados de validación.
 
-<img src="assets/resultado.png" alt="Finnecto Middleware Tester" width="700"
+<img src="./assets/resultado.png" alt="Finnecto Middleware Tester" width="700"
 
 ### 💡 Ejemplo de entrada válida para Vendors:
 
