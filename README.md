@@ -281,7 +281,8 @@ Este proyecto incluye una pequeña interfaz web para probar de manera visual los
 
 ### 📷 Vista previa
 
-<img src="./assets/finnecto-preview.png" alt="Finnecto Middleware Tester" width="700"
+<img src="https://raw.githubusercontent.com/alojo0608/finnecto-middleware/main/assets/finnecto-preview.png" alt="Finnecto Middleware Tester" width="700">
+
 
 
 ### 🚀 Cómo usarlo
