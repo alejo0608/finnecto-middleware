@@ -14,7 +14,7 @@ Este servicio procesa datos de proveedores (`/vendors`) y facturas (`/invoices`)
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/finnecto-middleware.git
+git clone https://github.com/alejo0608/finnecto-middleware.git
 cd finnecto-middleware
 ```
 
@@ -36,23 +36,25 @@ npm run dev
 
 ## 🧱 Estructura del Proyecto
 
+```
 finnecto-middleware/
 ├── src/
-│ ├── app.js # Servidor principal
-│ ├── routes/
-│ │ ├── vendors.js # Endpoint POST /vendors
-│ │ └── invoices.js # Endpoint POST /invoices
-│ ├── services/
-│ │ ├── vendorService.js # Lógica de negocio para vendors
-│ │ └── invoiceService.js # Lógica de negocio para invoices
-│ ├── utils/
-│ │ └── fileWriter.js # Escritura de resultados al archivo
+│   ├── app.js                # Servidor principal
+│   ├── routes/
+│   │   ├── vendors.js        # Endpoint POST /vendors
+│   │   └── invoices.js       # Endpoint POST /invoices
+│   ├── services/
+│   │   ├── vendorService.js  # Lógica de negocio para vendors
+│   │   └── invoiceService.js # Lógica de negocio para invoices
+│   ├── utils/
+│   │   └── fileWriter.js     # Escritura de resultados al archivo
 ├── results/
-│ └── results.jsonl # Archivo de resultados (JSON por línea)
+│   └── results.jsonl         # Archivo de resultados (JSON por línea)
 ├── test/
-│ └── sample_inputs/ # Datos de prueba
+│   └── sample_inputs/        # Datos de prueba
 ├── package.json
 └── README.md
+```
 
 ---
 
@@ -63,6 +65,8 @@ finnecto-middleware/
 - **Nodemon** – Reinicio automático en desarrollo
 - **fs / path (Node.js)** – Manejo de archivos
 - **Postman** (externo) – Para pruebas manuales
+
+---
 
 ## 📮 Endpoint: POST /vendors
 
@@ -108,12 +112,10 @@ Procesa datos de proveedores según la compañía (A o B) y transforma la respue
 }
 ```
 
-
 ---
 
 ### 📝 Contenido para `/invoices`
 
-```markdown
 ## 📮 Endpoint: POST /invoices
 
 Transforma una factura con base en el contenido de sus líneas de productos y la compañía que la envía.
@@ -164,10 +166,11 @@ Transforma una factura con base en el contenido de sus líneas de productos y la
 
 Todos los datos transformados exitosamente se guardan automáticamente en el archivo:
 
-results/results.jsonl
+> results/results.jsonl
 
 
 📌 Formato: **JSON line-by-line**  
+
 Cada línea contiene un objeto JSON independiente, lo que permite fácil lectura, streaming o importación a bases de datos.
 
 ### 📌 Ejemplo del contenido de `results.jsonl`:
@@ -191,20 +194,14 @@ Si la solicitud no contiene los campos requeridos o tiene un formato inválido, 
 }
 ``` 
 > Los registros que generen error no se guardan en el archivo de resultados.
-¡Vamos bien, Alejandro! Ahora seguimos con una sección breve pero útil: **datos de prueba y ejemplos de entrada**. Esta le dice al evaluador que tu código está listo para ser probado rápidamente.
 
 ## 🧪 Datos de prueba
 
 En la carpeta:
 
-test/sample_inputs/
+> test/sample_inputs/
 
-Se pueden incluir archivos `.json` con ejemplos de:
-
-- Proveedores válidos e inválidos (`vendor_a_valid.json`, `vendor_b_incomplete.json`, etc.)
-- Facturas con diferentes combinaciones de productos (`invoice_b_multi.json`, `invoice_a_std.json`, etc.)
-
-Esto facilita la prueba manual con herramientas como **Postman**, **Insomnia** o `curl`.
+Se pueden incluir archivos `.json` con ejemplos
 
 ---
 
@@ -223,7 +220,7 @@ curl -X POST http://localhost:3000/vendors \
 Emprendedor | Ingeniero de Sistemas y Computación | Consultor de innovación  
 📧 acruz@oficiencia.com 
 🔗 [LinkedIn](https://linkedin.com/in/alejandrocruz)  
-🌐 [Portafolio](https://alejandrocruz.dev) *(si aplica)*
+🌐 [Portafolio](https://alejandrocruz.dev)
 📧 [CV](https://alejandrocruz.dev) *(si aplica)*
 
 ---
@@ -237,7 +234,7 @@ Este reto fue una excelente experiencia para aplicar lógica de negocio real, bu
 
 ## 🏁 Notas finales
 
-✔️ Código modular y mantenible  
+✔️ Intenté desarrollar un código modular y mantenible  
 ✔️ Listo para producción con pequeña adaptación  
 ✔️ Compatible con pruebas automáticas y expansión futura  
 
