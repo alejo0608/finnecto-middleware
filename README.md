@@ -329,11 +329,11 @@ Posteriormente te aparecerá un dialogo de refresh al cual le debes dar click en
 **Alejandro Cruz**  
 Emprendedor | Ingeniero de Sistemas y Computación | Consultor de innovación  
 📧 acruz@oficiencia.com 
-🔗 [LinkedIn](https://linkedin.com/in/alejandrocruz)
+🔗 [LinkedIn](https://linkedin.com/in/alejandrocruzacevedo)
 
-🌐 [Portafolio](https://alejandrocruz.dev)
+🌐 [Portafolio](./docs/CV.pdf)
 
-📧 [CV](https://alejandrocruz.dev)
+📧 [CV](./docs/CV.pdf)
 
 ---
 
