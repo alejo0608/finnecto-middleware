@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🧪 Finnecto Middleware Tester</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    textarea {
+      width: 100%;
+      height: 160px;
+      font-family: monospace;
+      margin-bottom: 1rem;
+    }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🧪 Finnecto Middleware Tester</h1>
+
+  <form onsubmit="return false;">
+    <h2>Vendors</h2>
+    <textarea id="vendorInput">
+{
+  "company": "A",
+  "vendorName": "Global Supplies Ltd.",
+  "country": "FR",
+  "bank": "Bank X"
+}
+    </textarea>
+    <button type="submit" id="vendorBtn">Enviar a /vendors</button>
+    <pre id="vendorResponse">Respuesta aparecerá aquí...</pre>
+  </form>
+
+  <form onsubmit="return false;">
+    <h2>Invoices</h2>
+    <textarea id="invoiceInput">
+{
+  "company": "B",
+  "invoiceId": "INV2003",
+  "invoiceDate": "2025-03-19",
+  "lines": [
+    { "description": "Alcohol beverages", "amount": 150.00 },
+    { "description": "Tobacco products", "amount": 200.00 }
+  ]
+}
+    </textarea>
+    <button type="submit" id="invoiceBtn">Enviar a /invoices</button>
+    <pre id="invoiceResponse">Respuesta aparecerá aquí...</pre>
+  </form>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("vendorBtn").addEventListener("click", async () => {
+        const data = document.getElementById('vendorInput').value;
+        try {
+          const res = await fetch('http://localhost:3000/vendors', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: data
+          });
+          const result = await res.json();
+          document.getElementById('vendorResponse').textContent = JSON.stringify(result, null, 2);
+        } catch (error) {
+          document.getElementById('vendorResponse').textContent = "Error: " + error.message;
+        }
+      });
+
+      document.getElementById("invoiceBtn").addEventListener("click", async () => {
+        const data = document.getElementById('invoiceInput').value;
+        try {
+          const res = await fetch('http://localhost:3000/invoices', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: data
+          });
+          const result = await res.json();
+          document.getElementById('invoiceResponse').textContent = JSON.stringify(result, null, 2);
+        } catch (error) {
+          document.getElementById('invoiceResponse').textContent = "Error: " + error.message;
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>

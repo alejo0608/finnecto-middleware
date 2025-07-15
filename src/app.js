@@ -2,6 +2,10 @@ const express = require('express');
 const vendorRoutes = require('./routes/vendors');
 const invoiceRoutes = require('./routes/invoices');
 const app = express();
+const cors = require('cors');
+
+app.use(cors());
+
 
 // Middleware para parsear JSON
 app.use(express.json());
