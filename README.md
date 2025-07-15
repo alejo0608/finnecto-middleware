@@ -201,16 +201,68 @@ En la carpeta:
 
 > test/sample_inputs/
 
-Se pueden incluir archivos `.json` con ejemplos
+Se incluyen archivos `.json` con ejemplos
+
+Esto facilita validar el comportamiento del middleware sin necesidad de reescribir los datos.
+
+Archivos incluidos:
+
+- vendor_a_international.json
+
+- vendor_b_incomplete.json
+
+- vendor_b_verified.json
+
+- invoice_a_with_alcohol.json
+
+- invoice_b_multi.json
+
+- invoice_b_std.json
+
+### 🧪 ¿Cómo usarlos los datos de prueba con curl?
+
+#### ▶️ Opción 1: PowerShell (Windows)
+
+Ejecuta todos los casos con:
+
+``` powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+./test/run-tests.ps1
+```
+Este script enviará las solicitudes automáticamente a los endpoints /vendors y /invoices con diferentes combinaciones de datos para verificar el comportamiento del middleware.
+
+#### ▶️ Opción 2: Git Bash o Linux
+Si usas Git Bash o un sistema Unix-like:
+
+```bash
+chmod +x test/run-tests.sh
+./test/run-tests.sh
+```
+Este script hace lo mismo que el de PowerShell pero con sintaxis tradicional de bash.
+
+Para probar un archivo vendor individualmente:
+
+``` bash
+curl -X POST http://localhost:3000/vendors \
+  -H "Content-Type: application/json" \
+  -d @test/sample_inputs/vendor_a_international.json
+```
+
+Para probar un archivo invoices individualmente:
+``` bash
+curl -X POST http://localhost:3000/invoices \
+  -H "Content-Type: application/json" \
+  -d @test/sample_inputs/invoice_b_multi.json
+```
 
 ---
 
-## 🔁 Ejecución rápida con `curl` (opcional)
+## 🔁 Ejecución rápida con `curl`
 
 ```bash
 curl -X POST http://localhost:3000/vendors \
   -H "Content-Type: application/json" \
-  -d @test/sample_inputs/vendor_a_valid.json
+  -d @test/sample_inputs/vendor_b_verified.json
 ```
 ---
 
@@ -219,9 +271,11 @@ curl -X POST http://localhost:3000/vendors \
 **Alejandro Cruz**  
 Emprendedor | Ingeniero de Sistemas y Computación | Consultor de innovación  
 📧 acruz@oficiencia.com 
-🔗 [LinkedIn](https://linkedin.com/in/alejandrocruz)  
+🔗 [LinkedIn](https://linkedin.com/in/alejandrocruz)
+
 🌐 [Portafolio](https://alejandrocruz.dev)
-📧 [CV](https://alejandrocruz.dev) *(si aplica)*
+
+📧 [CV](https://alejandrocruz.dev)
 
 ---
 

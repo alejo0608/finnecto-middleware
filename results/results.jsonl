@@ -1,1 +1,15 @@
 {"invoiceId":"INV2004","invoiceDate":"2025-03-20","account":"STD-B","lines":[{"description":"Office supplies","amount":90},{"description":"Cleaning services","amount":60}]}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Local Goods Inc.","country":"US","bank":"Local Bank Y","vendorStatus":"Incomplete - missing registration/tax details"}
+{"vendorName":"Trusted Suppliers LLC","country":"US","bank":"Local Bank Z","vendorStatus":"Verified"}
+{"invoiceId":"INV1001","invoiceDate":"2025-03-15","account":"ALC-001","lines":[{"description":"Office supplies","amount":150},{"description":"Beverages - alcohol","amount":200}]}
+{"invoiceId":"INV2003","invoiceDate":"2025-03-19","account":"MULTI-B","lines":[{"description":"Alcohol beverages","amount":150},{"description":"Tobacco products","amount":200}]}
+{"invoiceId":"INV2004","invoiceDate":"2025-03-20","account":"STD-B","lines":[{"description":"Office supplies","amount":90},{"description":"Cleaning services","amount":60}]}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Local Goods Inc.","country":"US","bank":"Local Bank Y","vendorStatus":"Incomplete - missing registration/tax details"}
+{"vendorName":"Trusted Suppliers LLC","country":"US","bank":"Local Bank Z","vendorStatus":"Verified"}
+{"invoiceId":"INV1001","invoiceDate":"2025-03-15","account":"ALC-001","lines":[{"description":"Office supplies","amount":150},{"description":"Beverages - alcohol","amount":200}]}
+{"invoiceId":"INV2003","invoiceDate":"2025-03-19","account":"MULTI-B","lines":[{"description":"Alcohol beverages","amount":150},{"description":"Tobacco products","amount":200}]}
+{"invoiceId":"INV2004","invoiceDate":"2025-03-20","account":"STD-B","lines":[{"description":"Office supplies","amount":90},{"description":"Cleaning services","amount":60}]}
