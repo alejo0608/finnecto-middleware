@@ -298,19 +298,19 @@ npm run dev
 
 3. Prueba los endpoints copiando tus datos JSON en cada text area.
 
-<img src="https://raw.githubusercontent.com/alejo0608/finnecto-middleware/main/assets/texto.png" alt="Finnecto Middleware Tester Text" width="700"
+<img src="https://raw.githubusercontent.com/alejo0608/finnecto-middleware/main/assets/texto.png" alt="Finnecto Middleware Tester Text" width="700">
 
 4. Haz clic en “Enviar a /vendors” o “Enviar a /invoices”. 
 
-<img src="https://raw.githubusercontent.com/alejo0608/finnecto-middleware/main/assets/boton.png" alt="Finnecto Middleware Tester Button" width="700"
+<img src="https://raw.githubusercontent.com/alejo0608/finnecto-middleware/main/assets/boton.png" alt="Finnecto Middleware Tester Button" width="700">
 
 Posteriormente te aparecerá un dialogo de refresh al cual le debes dar click en "cancelar"
 
-<img src="https://raw.githubusercontent.com/alejo0608/finnecto-middleware/main/assets/dialogo.png" alt="Finnecto Middleware Tester Dialog" width="700"
+<img src="https://raw.githubusercontent.com/alejo0608/finnecto-middleware/main/assets/dialogo.png" alt="Finnecto Middleware Tester Dialog" width="700">
 
 5. La respuesta aparecerá abajo formateada, junto con estados de validación.
 
-<img src="https://raw.githubusercontent.com/alejo0608/finnecto-middleware/main/assets/resultado.png" alt="Finnecto Middleware Tester Result" width="700"
+<img src="https://raw.githubusercontent.com/alejo0608/finnecto-middleware/main/assets/resultado.png" alt="Finnecto Middleware Tester Result" width="700">
 
 ### 💡 Ejemplo de entrada válida para Vendors:
 
