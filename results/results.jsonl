@@ -25,3 +25,40 @@
 {"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
 {"invoiceId":"INV2003","invoiceDate":"2025-03-19","account":"MULTI-B","lines":[{"description":"Alcohol beverages","amount":150},{"description":"Tobacco products","amount":200}]}
 {"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","message":"Please confirm international bank details","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","message":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"US","bank":"Bank X","vendorStatus":"Incomplete - missing registration/tax details"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","message":"Please confirm international bank details","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"US","bank":"Bank X"}
+{"vendorName":"Global Supplies Ltd.","country":"FR","bank":"Bank X","message":"Please confirm international bank details","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Global Supplies Ltd.","country":"US","bank":"Bank X","vendorStatus":"Incomplete - missing registration/tax details"}
+{"vendorName":"Global Supplies Ltd.","country":"US","bank":"Bank X","vendorStatus":"Verified"}
+{"vendorName":"Trusted Suppliers LLC","country":"US","bank":"Local Bank Z","vendorStatus":"Verified"}
+{"vendorName":"Trusted Suppliers LLC","country":"US","bank":"Local Bank Z","vendorStatus":"Incomplete - missing registration/tax details"}
+{"vendorName":"Trusted Suppliers LLC","country":"US","bank":"Local Bank Z","vendorStatus":"Incomplete - missing registration/tax details"}
+{"vendorName":"Trusted Suppliers LLC","country":"US","bank":"Local Bank Z","vendorStatus":"Verified"}
+{"vendorName":"Trusted Suppliers LLC","country":"US","bank":"Local Bank Z","vendorStatus":"Verified"}
+{"vendorName":"Trusted Suppliers LLC","country":"US","bank":"Local Bank Z","vendorStatus":"Incomplete - missing registration/tax details"}
+{"vendorName":"Trusted Suppliers LLC","country":"FR","bank":"Local Bank Z","message":"Please confirm international bank details"}
+{"vendorName":"Trusted Suppliers LLC","country":"FR","bank":"Local Bank Z","message":"Please confirm international bank details","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Trusted Suppliers LLC","country":"FR","bank":"Local Bank Z","message":"Please confirm international bank details"}
+{"vendorName":"Trusted Suppliers LLC","country":"US","bank":"Local Bank Z","vendorStatus":"Verified"}
+{"vendorName":"Trusted Suppliers LLC","country":"FR","bank":"Local Bank Z","message":"This is an international bank details"}
+{"vendorName":"Trusted Suppliers LLC","country":"US","bank":"Local Bank Z","vendorStatus":"Verified"}
+{"vendorName":"Trusted Suppliers LLC","country":"FR","bank":"Local Bank Z","message":"This is an international bank","internationalBank":"Please confirm international bank details"}
+{"vendorName":"Trusted Suppliers LLC","country":"FR","bank":"Local Bank Z","message":"This is an international bank","internationalBank":"Please confirm international bank details"}
+{"invoiceId":"INV2004","invoiceDate":"2025-03-20","account":"STD-B","lines":[{"description":"Office supplies","amount":90},{"description":"Cleaning services","amount":60}]}
+{"vendorName":"Trusted Suppliers LLC","country":"US","bank":"Local Bank Z","vendorStatus":"Verified"}
